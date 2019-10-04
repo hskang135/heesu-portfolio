@@ -1,13 +1,27 @@
 body {
     text-align: center;
+    background-color: #b6e4e4;
+}
+
+header {
+    margin-top: 100px;
 }
 
 .navbar {
     text-align: right;
+    background-color: #e7b3b6;
+    padding: 10px;
 }
 
 li {
     list-style: none;
+}
+
+.desk-menu li,
+.tech-use p {
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: inline-block;
 }
 
 .my-photo {
@@ -16,7 +30,7 @@ li {
 }
 
 h2 {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .project {
@@ -25,6 +39,21 @@ h2 {
     margin-top: 20px;
 }
 
+.project-container{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.skill-container,
+.contact-container,
+.about-container {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
 footer {
     margin-top: 100px;
+    background-color: #e7b3b6;
+    padding: 10px;
 }
