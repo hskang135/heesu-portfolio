@@ -1,41 +1,30 @@
-* {
-    box-sizing: border-box;
-};
-
 body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
     text-align: center;
-    line-height: 1.5;
-};
-  
-nav,
-footer {
-    padding: 1% 0;
-    background-color: #aaa;
-};
-  
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-};
+}
 
-header {
-    padding: 12% 0;
-};
-  
-section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
-};
-  
-section:nth-child(even) {
-    background-color: #ddd;
-};
-  
+.navbar {
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+.my-photo {
+    width: 200px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+.project {
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
