@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Heesu's Portfolio</title>
+    <title>Heesu Kang</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="https://kit.fontawesome.com/c717a85a7a.js" crossorigin="anonymous"></script>
@@ -13,80 +13,89 @@
 <body>
     <main role="main">
         <header role="banner">
-            <h1>Welcome to Heesu's Portfolio</h1>
-                <div class="my-img">
-                    <img class="my-photo" src="./images/me.jpg">
-                </div>
-                <p>Heesu Kang <br /> Front-End Developer</p>
+            <h1><i>Welcome to Heesu's Portfolio</i></h1>
+                <ul>
+                    <li><img class="my-photo" src="./images/me.jpeg" alt="me"></li>
+                    <div></div>
+                    <li><i>Heesu Kang <br /> Front-End Developer</i></li>
+                </ul>
         </header>
 
         <section id="about-me">
-            <h2><i>About Me</i></h2>
-                <span><i class="fa fa-map-pin"></i> Fort Lee, NJ</span>
-                <p>
-                    text
-                </p>
-                <ul>
-                    <li>My Hobbies</li>
-                    <li><i class="fa fa-camera"></i> Taking pictures</li>
-                    <li><i class="fa fa-music"></i> Music is my life</li>
-                    <li><i class="fa fa-car"></i> Driving somewhere</li>
-                </ul>
+            <div class="bio">
+                <h2><i>About Me</i></h2>
+                    <span><i class="fa fa-map-pin"></i> Fort Lee, NJ</span>
+                    <p>
+                        After I graduated from college as a Computer Science major, 
+                        I decided to become a Front-End Developer. 
+                        I enjoy the relationship between learning computer technologies, 
+                        enjoy to work as a team, and do my best to try solving problems.
+
+                    </p>
+                    <ul>
+                        <li>My Hobbies</li>
+                        <li><i class="fa fa-camera"></i>   Taking pictures</li>
+                        <li><i class="fa fa-music"></i>   Music is my life</li>
+                        <li><i class="fa fa-car"></i>   Driving somewhere</li>
+                    </ul>
+            </div>
         </section>
 
-        <section>
+        <section id="projects">
                 <h2><i>Projects</i></h2>
                 <div class="project-container">
-                    <div class="project-text">
                         <h3>Quiz App</h3>
-                        <div class="project-link">
-                            <button type="button" value="live page" onclick="window.location.href= 'https://github.com/thinkful-ei-heron/heesu_reif_quiz_app'">Live Page</a></button>
-                            <button type="button" value="code page" onclick="window.location.href= 'https://thinkful-ei-heron.github.io/heesu_reif_quiz_app/'">Code Page</a></button>
-                        </div>
-                        <p>description</p>
-                    </div>
-                    <div class="screenshot-container">
-                        <img class="project" src="./images/quiz_app.png" alt="quiz app">
-                    </div>
-                    <div class="tech-use">
-                        <p>JavaScript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                    </div>
+                        <ul>
+                            <li><img class="project" src="./images/quiz_app.jpeg" alt="quiz app"></li>
+                            <br />
+                            <br />
+                            <li>
+                                <button type="button" value="live page" onclick="window.location.href= 'https://github.com/thinkful-ei-heron/heesu_reif_quiz_app'">Live Page</a></button>
+                                <button type="button" value="code page" onclick="window.location.href= 'https://thinkful-ei-heron.github.io/heesu_reif_quiz_app/'">Code Page</a></button>
+                            </li>
+                        </ul>
+                        <p>A fun quiz app to test your math knowledge with simple 5 questions!</p>
+                        
+                        <ul class="tech-use">
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
                 </div>
                 
                 <div class="project-container">
-                    <div class="project-text">
-                        <h3>Bookmarks App</h3>
-                        <div class="project-link">
+                    <h3>Bookmarks App</h3>
+                    <ul>
+                        <li><img class="project" src="./images/bookmark_app.jpeg" alt="bookmarks app"></li>
+                        <br />
+                        <br />
+                        <li>
                             <button type="button" value="live page" onclick="window.location.href= 'https://thinkful-ei-heron.github.io/heesu-bookmark/'">Live Page</a></button>
                             <button type="button" value="code page" onclick="window.location.href= 'https://github.com/thinkful-ei-heron/heesu-bookmark'">Code Page</a></button>
-                        </div>
-                        <p>description</p>
-                    </div>
-                    <div class="screenshot-container">
-                        <img class="project" src="./images/bookmark_app.png" alt="bookmarks app">
-                    </div>
-                    <div class="tech-use">
-                        <p>JavaScript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                    </div>
+                        </li>
+                    </ul>
+                    <p>An App will keep help you to  bookmarks page</p>
+                    
+                    <ul class="tech-use">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
                 </div>
             </section>
 
-        <section>
+        <section id="contact">
             <h2><i>Contact</i></h2>
                 <ul>
-                    <li><a href="#"><i class="fa fa-file-pdf-o"></i>Resume</a></li>
-                    <li><a href="mailto: hskang135@gmail.com"><i class="fa fa-envelope"></i>Email</a></li>
-                    <li><a href="https://github.com/hskang135"><i class="fa fa-github-square"></i>GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/heesu-kang-687430110/"><i class="fa fa-linkedin"></i>LinedIn</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="mailto: hskang135@gmail.com">Email</a></li>
+                    <div></div>
+                    <li><a href="https://github.com/hskang135">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/heesu-kang-687430110/">LinedIn</a></li>
                 </ul>
         </section>
     </main>
-
-    <footer>Copyright @ 2019 Heesu Kang. All right reserved.</footer>
+    <footer>Copyright @ 2019 Heesu Kang. <br /> All right reserved.</footer>
 
 </body>
 </html>

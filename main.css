@@ -1,52 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: 'Applemint', sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     width: 0 auto;
 }
 
 header {
-    margin-top: 100px;
-    font-size: 40px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    padding: 8% 0 0 0;
+    position: relative;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+p {
+    text-align: left;
+    text-indent: 30px;
+}
+
+.bio ul {
+    text-align: center;
+}
+
+.bio {
+    padding: 5%;
 }
 
 h1 {
     font-size: 60px;
 }
 
+h3 {
+    font-size: 40px;
+}
+
 li {
     list-style: none;
 }
 
-.tech-use p {
-    justify-content: space-evenly;
-    flex-direction: row;
-    display: inline-block;
-}
-
-.my-img {
-    margin: 30px;
-}
-
-.my-photo {
-    width: 500px;
-    border-radius: 10px;
-}
-
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 50px;
+}
+
+button {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+button:hover {
+    box-shadow: 2px 2px 8px #2E2E2E;
+}
+
+section {
+    min-height: 200px;
+    padding: 2% 0;
 }
 
 .project {
-    width: 400px;
-    border-radius: 10px;
-    margin-top: 20px;
+    position: relative;
+    margin: 5% 3% 5% 3%;
 }
 
-.skill-container,
-.project-container,
-.about-container {
+.project img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    width: 0 auto;
+}
+
+.project-container {
     border-radius: 5px;
     margin: 0 auto;
     padding: 20px;
@@ -55,6 +97,37 @@ h2 {
 footer {
     margin-top: 100px;
     background-color: bisque;
-    padding: 15px;
-    
+    padding: 2% 0;
+    font-size: 15px;
+}
+
+#contact li:hover {
+    box-shadow: 2px 2px 8px #2E2E2E;
+}
+
+#contact {
+    font-size: 20px;
+
+}
+
+#contact a {
+    color: 
+}
+
+#contact li {
+    border: 1px solid #2e2e2e;
+    display: inline-block;
+    padding: 3%;
+    margin: 2%;
+    width: 160px;
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        font-size: 35px;
+    }
+
+    header {
+        font-size: 50px;
+    }
 }
