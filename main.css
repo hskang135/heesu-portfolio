@@ -10,18 +10,8 @@ body {
     width: 0 auto;
 }
 
-main {
-    border: 5px solid red;
-}
-
-header {
-    margin-top: 140px !important;
-    border: 1px solid black;
-}
-
 nav {
     background-color: bisque;
-    border: 1px solid black;
     top: 0;
     left: 0;
     right: 0;
@@ -31,10 +21,10 @@ nav {
 }
 
 .nav ul li {
-    border: 1px solid black;
     flex-direction: row;
     display: inline;
     margin: 0 5% 0 5%;
+    font-size: 17px;
 }
 
 .nav a {
@@ -54,8 +44,7 @@ ul {
 }
 
 p {
-    text-align: left;
-    text-indent: 30px; 
+    text-align: center;
 }
 
 .bio ul {
@@ -67,7 +56,7 @@ p {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 h3 {
@@ -114,13 +103,12 @@ section {
 #projects {
     margin: 5% 3% 5% 3%;
     text-align: center;
-    border: 2px solid gray;
 }
 
 .project-container {
     border-radius: 5px;
     border: 2px solid gray;
-    margin: 10px auto !important;
+    margin: 30px auto !important;
     text-align: center;
 }
 
@@ -132,7 +120,6 @@ footer {
     overflow: hidden;
     text-decoration: none;
     padding: 1% 0;
-    margin-top: 60px;
     font-size: 10px;
 }
 
@@ -145,11 +132,11 @@ footer {
 }
 
 #contact li {
-    border: 1px solid #2e2e2e;
     display: inline-block;
     padding: 3%;
     margin: 2%;
     width: 160px;
+    border: 1px solid gray;
 }
 
 #contact a {
@@ -188,11 +175,32 @@ footer {
     .menu {
         display: block;
     }
+
 }
 
 @media screen and (min-width: 1024px) {
     body {
         padding-top: 70px !important; 
+    }
+
+    .project-container {
+        max-width: 25em;
+    }
+
+    .nav ul li {
+       font-size: 35px;
+    }
+
+    #projects h2 {
+        padding-top: 70px;
+    }
+
+    #about-me h2 {
+        padding-top: 20px;
+    }
+
+    #contact h2 {
+        padding-top: 70px;
     }
 
     header img {
@@ -201,8 +209,8 @@ footer {
     }
     
     section img {
-        max-width: 110%;
-        max-height: 110%;
+        max-width: 130%;
+        max-height: 130%;
     }
 
     #contact {
@@ -210,7 +218,6 @@ footer {
     }
 
     #contact li {
-        border: 1px solid #2e2e2e;
         display: inline-block;
         padding: 3%;
         margin: 2%;
