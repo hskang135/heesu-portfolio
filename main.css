@@ -77,7 +77,7 @@ li {
 
 h2 {
     font-family: 'Yeseva One', cursive;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h3 {
@@ -136,6 +136,10 @@ section {
 
 .project-container p {
     padding: 0 30px 0 30px;
+}
+
+.project-container h3 {
+    font-size: 30px;
 }
 
 .project-container ul {
