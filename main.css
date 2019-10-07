@@ -226,6 +226,10 @@ footer {
         max-width: 25em;
     }
 
+    .project-container h3 {
+        font-size: 60px;
+    }
+
     header li {
         font-size: 50px;
     }
