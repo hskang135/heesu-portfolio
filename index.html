@@ -1,279 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Heesu Kang</title>
-    
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c717a85a7a.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Heesu Kang</title>
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
+        <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c717a85a7a.js" crossorigin="anonymous"></script>
+    </head>
 
-<body>
-    <nav>
-        <ul class="menu">
-            <li><a href="#about-me">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="#about-me">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
 
-    <header>
-        <ul>
-            <li><img class="my-photo" src="./images/me.png" alt="me"></li>
-            <li><i>Heesu Kang <br /> Front End Web Developer</i></li>
-        </ul>
-    </header>
-    
-    <main>
-        <section id="about-me">
-            <div class="bio">
-                <h2>About Me</h2>
-                
-                <p>
-                    After I graduated from college as a Computer Science major, I couldn't decide what I wanted to be, 
-                    and in which technology field I should use my knowledge. 
-                    I knew I enjoyed learning computer technologies working on a team, and I enjoyed the challenge trying to solve problems individually. 
-                    So I began to build websites or apps carefully following the instructions and I was surprised and delighted when they ran successfully. 
-                    I wanted to learn more and found a school that offered me that opportunity.
-                </p>
-                
-                <ul>
-                    <li>My Hobbies:</li>
-                    <li><i class="fa fa-camera"></i>  Photography</li>
-                    <li><i class="fa fa-music"></i>  Music is my life</li>
-                    <li><i class="fa fa-car"></i>  Day trips in my car</li>
-                    <li><i class="fa fa-globe"></i>  Travel around the world</li>
-                </ul>
-            </div>
-        </section>
+        <header>
+            <ul>
+                <li><img class="my-photo" src="./images/me.png" alt="me"></li>
+                <li><i>Heesu Kang <br /> Front End Web Developer</i></li>
+            </ul>
+        </header>
+        
+        <main>
+            <section id="about-me">
+                <div class="bio">
+                    <h2>About Me</h2>
+                    
+                    <p>
+                        After I graduated from college as a Computer Science major, I couldn't decide what I wanted to be, 
+                        and in which technology field I should use my knowledge. 
+                        I knew I enjoyed learning computer technologies and working on a team, and I enjoyed the challenge of trying to solve problems individually. 
+                        So I began to build websites or apps carefully following the instructions and I was surprised and delighted when they ran successfully. 
+                        I wanted to learn more and found a school that offered me that opportunity.
+                    </p>
+                    
+                    <ul>
+                        <li>My Hobbies:</li>
+                        <li><i class="fa fa-camera"></i>  Photography</li>
+                        <li><i class="fa fa-music"></i>  Music is my life</li>
+                        <li><i class="fa fa-car"></i>  Day trips in my car</li>
+                        <li><i class="fa fa-globe"></i>  Travel around the world</li>
+                    </ul>
+                </div>
+            </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
+            <section id="projects">
+                <h2>Projects</h2>
 
-            <div class="project-container">
-                <h3>Spaced Repetition</h3>
-                
-                <ul>
-                    <li><img class="project-photo" src="./images/spaced.png" alt="spaced-repetition"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://spacedrepetition.now.sh', '_blank')"> Live </button>
-                        <button type="button" value="client side page" onclick="window.open ('https://github.com/thinkful-ei-heron/spaced-repetition-client-heesu-wesley-zayar', '_blank')"> Client </button>
-                        <button type="button" value="server side page" onclick="window.open ('https://github.com/thinkful-ei-heron/spaced-repetition-api-heesu-wesley-zayar', '_blank')"> Server </button>
-                    </li>
-                </ul>
-                
-                <p>
-                    The Spaced Repetition is an application that user can learn 10 basic Spanish words and can take a practice word anytime when they are ready for it. 
-                    Users able to check their answer is correct or incorrect directly on the learning page. 
-                    Also, Spaced Repetition will display how many times they got correct or incorrect answers for each word and total score on the dashboard page.
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    JavaScript
-                    React.js
-                    HTML
-                    CSS
-                    JWT <br />
-                    Cypress.io
-                    Express.js
-                    PostgreSQL
-                    Heroku
-                </span>
-            </div>
+                <div class="project-container">
+                    <h3>Spaced Repetition</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/spaced.png" alt="spaced-repetition"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://spacedrepetition.now.sh', '_blank')"> Live </button>
+                            <button type="button" value="client side page" onclick="window.open ('https://github.com/thinkful-ei-heron/spaced-repetition-client-heesu-wesley-zayar', '_blank')"> Client </button>
+                            <button type="button" value="server side page" onclick="window.open ('https://github.com/thinkful-ei-heron/spaced-repetition-api-heesu-wesley-zayar', '_blank')"> Server </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        The Spaced Repetition is an application that allows a user to learn 10 basic Spanish words and allows a user to take a "practice word" anytime when they are ready for it.
+                        Users are able to check if their answer is correct or incorrect directly on the learning page.
+                        Also, Spaced Repetition will display how many times they got correct or incorrect answers for each word and total score on the dashboard page.
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        JavaScript,
+                        React.js,
+                        HTML,
+                        CSS,
+                        JWT, <br />
+                        Cypress.io,
+                        Express.js,
+                        PostgreSQL,
+                        Heroku
+                    </span>
+                </div>
 
-            <div class="project-container">
-                <h3>FIFO Pet Adaption Agency</h3>
+                <div class="project-container">
+                    <h3>FIFO Pet Adaption Agency</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/petful.png" alt="petful-app"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://fifo-pet-adoption-agency.now.sh/', '_blank')"> Live </button>
+                            <button type="button" value="client side page" onclick="window.open ('https://github.com/thinkful-ei-heron/Jonny-Heesu-DSA-Petful-Client', '_blank')"> Client </button>
+                            <button type="button" value="server side page" onclick="window.open ('https://github.com/thinkful-ei-heron/Jonny-Heesu-DSA-Petful-Server', '_blank')"> Server </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        The FIFO (First In First Out) Pet Adaption Agency is an animal shelter that allows the adoption of dogs and cats. 
+                        There are many dogs and cats waiting for a new sweet family to live with together. 
+                        Anyone is able to adopt a dog and a cat, but they need to visit our shelter first. 
+                        Also, people who want to adopt need to wait until their turn in the adoption line.
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        JavaScript,
+                        React.js,
+                        HTML,
+                        CSS, <br />
+                        Express.js,
+                        PostgreSQL,
+                        Heroku
+                    </span>
+                </div>
                 
-                <ul>
-                    <li><img class="project-photo" src="./images/petful.png" alt="petful-app"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://fifo-pet-adoption-agency.now.sh/', '_blank')"> Live </button>
-                        <button type="button" value="client side page" onclick="window.open ('https://github.com/thinkful-ei-heron/Jonny-Heesu-DSA-Petful-Client', '_blank')"> Client </button>
-                        <button type="button" value="server side page" onclick="window.open ('https://github.com/thinkful-ei-heron/Jonny-Heesu-DSA-Petful-Server', '_blank')"> Server </button>
-                    </li>
-                </ul>
+                <div class="project-container">
+                    <h3>FoodRecipes App</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/foodrecipes_app.png" alt="foodrecipes-app"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://foodrecipes.now.sh/', '_blank')"> Live </button>
+                            <button type="button" value="client side page" onclick="window.open ('https://github.com/hskang135/Food-Recipes-Client', '_blank')"> Client </button>
+                            <button type="button" value="server side page" onclick="window.open ('https://github.com/hskang135/Food-Recipes-Server', '_blank')"> Server </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        The FoodRecipes is an application everyone who wants to cook for meals or desserts.
+                        Share your favorite food recipes with other people who want to try your recipes.
+                        Also, If the user does not like added recipes, they can remove recipes anytime they want.
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        JavaScript,
+                        React.js,
+                        HTML,
+                        CSS, <br />
+                        Express.js,
+                        PostgreSQL,
+                        Heroku
+                    </span>
+                </div>
                 
-                <p>
-                    The FIFO (First In First Out) Pet Adaption Agency is an animal shelter that allows the adoption of dogs and cats. 
-                    There are many dogs and cats waiting for a new sweet family to live together. 
-                    Anyone able to adopt a dog and a cat, but they need to visit our shelter first. 
-                    Also, people who want to adopt need to wait until their turn in the adoption line.
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    JavaScript
-                    React.js
-                    HTML
-                    CSS <br />
-                    Express.js
-                    PostgreSQL
-                    Heroku
-                </span>
-            </div>
-            
-            <div class="project-container">
-                <h3>FoodRecipes App</h3>
-                
-                <ul>
-                    <li><img class="project-photo" src="./images/foodrecipes_app.png" alt="foodrecipes-app"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://foodrecipes.now.sh/', '_blank')"> Live </button>
-                        <button type="button" value="client side page" onclick="window.open ('https://github.com/hskang135/Food-Recipes-Client', '_blank')"> Client </button>
-                        <button type="button" value="server side page" onclick="window.open ('https://github.com/hskang135/Food-Recipes-Server', '_blank')"> Server </button>
-                    </li>
-                </ul>
-                
-                <p>
-                    The FoodRecipes is an application for everyone who wants to cook for meals or desserts. 
-                    If you cannot remember what is the recipes you can get detail recipes in the FoodRecipes app. 
-                    Also, If the user does not like added recipes, they can remove recipes anytime they want. 
-                    Share your favorite food recipes with other people who want to try your recipes.
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    JavaScript
-                    React.js
-                    HTML
-                    CSS <br />
-                    Express.js
-                    PostgreSQL
-                    Heroku
-                </span>
-            </div>
-            
-            <div class="project-container">
-                <h3>Noteful App</h3>
-                
-                <ul>
-                    <li><img class="project-photo" src="./images/noteful_app.png" alt="noteful-app"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://noteful-client-jet-alpha.now.sh/', '_blank')"> Live </button>
-                        <button type="button" value="client side page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu-noteful-client', '_blank')"> Client </button>
-                        <button type="button" value="api server side page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu-noteful-server', '_blank')"> Server </button>
-                    </li>
-                </ul>
-                
-                <p>
-                    The Noteful App is that user able to create new folders and notes. 
-                    Each folder can have a lot of notes. Also, each note will display and organize by added date.
-                    When a specific note is clicked, it will display detail content.
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    JavaScript
-                    React.js
-                    HTML
-                    CSS <br />
-                    Express.js
-                    PostgreSQL
-                    Heroku
-                </ul>
-            </div>
+                <!-- <div class="project-container">
+                    <h3>Noteful App</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/noteful_app.png" alt="noteful-app"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://noteful-client-jet-alpha.now.sh/', '_blank')"> Live </button>
+                            <button type="button" value="client side page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu-noteful-client', '_blank')"> Client </button>
+                            <button type="button" value="api server side page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu-noteful-server', '_blank')"> Server </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        The Noteful App is that user able to create new folders and notes. 
+                        Each folder can have a lot of notes. Also, each note will display and organize by added date.
+                        When a specific note is clicked, it will display detail content.
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        JavaScript,
+                        React.js,
+                        HTML,
+                        CSS, <br />
+                        Express.js,
+                        PostgreSQL,
+                        Heroku
+                    </ul>
+                </div> -->
 
-            <div class="project-container">
-                <h3>Bookmarks App</h3>
-                
-                <ul>
-                    <li><img class="project-photo" src="./images/bookmarks_app.png" alt="bookmarks-app"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://thinkful-ei-heron.github.io/heesu-bookmark/', '_blank')"> Live </button>
-                        <button type="button" value="code page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu-bookmark', '_blank')"> Code </button>
-                    </li>
-                </ul>
-                
-                <p>
-                    The created Bookmarks App is an application that the user can use to organize their favorite web pages. 
-                    The user is able to add or delete new pages on the Bookmarks App anytime and as often as the user wants. 
-                    The Bookmarks App allows users to rate the website and write descriptions as well. 
-                    It can also filter by the rating if the user chooses to.
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    JavaScript
-                    HTML
-                    CSS
-                    jQuery
-                </span>
-            </div>
+                <div class="project-container">
+                    <h3>Bookmarks App</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/bookmarks_app.png" alt="bookmarks-app"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://thinkful-ei-heron.github.io/heesu-bookmark/', '_blank')"> Live </button>
+                            <button type="button" value="code page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu-bookmark', '_blank')"> Code </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        The created Bookmarks App is an application that the user can use to organize their favorite web pages. 
+                        The user is able to add or delete new pages on the Bookmarks App anytime and as often as the user wants. 
+                        The Bookmarks App allows users to rate the website and write descriptions as well. 
+                        It can also filter by the rating if the user chooses to.
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        JavaScript,
+                        HTML,
+                        CSS,
+                        jQuery
+                    </span>
+                </div>
 
-            <div class="project-container">
-                <h3>Quiz App</h3>
-                
-                <ul>
-                    <li><img class="project-photo" src="./images/quiz_app.png" alt="quiz-app"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://thinkful-ei-heron.github.io/heesu_reif_quiz_app/', '_blank')"> Live </button>
-                        <button type="button" value="code page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu_reif_quiz_app', '_blank')"> Code </button>
-                    </li>
-                </ul>
-                
-                <p>
-                    The Math Quiz App, created with a pair partner, 
-                    is a quiz to test basic math knowledge with 5 questions. 
-                    The user is able to check “correct” or “incorrect” buttons on each page 
-                    and they receive a final score at the end. 
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    JavaScript
-                    HTML
-                    CSS
-                    jQuery
-                </span>
-            </div>
+                <div class="project-container">
+                    <h3>Quiz App</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/quiz_app.png" alt="quiz-app"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://thinkful-ei-heron.github.io/heesu_reif_quiz_app/', '_blank')"> Live </button>
+                            <button type="button" value="code page" onclick="window.open ('https://github.com/thinkful-ei-heron/heesu_reif_quiz_app', '_blank')"> Code </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        The Math Quiz App, created with a pair partner, 
+                        is a quiz to test basic math knowledge with 5 questions. 
+                        The user is able to check “correct” or “incorrect” buttons on each page 
+                        and they receive a final score at the end. 
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        JavaScript,
+                        HTML,
+                        CSS,
+                        jQuery
+                    </span>
+                </div>
 
-            <div class="project-container">
-                <h3>Web App</h3>
-                
-                <ul>
-                    <li><img class="project-photo" src="./images/web_app.png" alt="web app"></li>
-                    <li>
-                        <button type="button" value="live page" onclick="window.open ('https://heesusbokeh.herokuapp.com/', '_blank')"> Live </button>
-                        <button type="button" value="code page" onclick="window.open ('https://github.com/hskang135/Build-a-Website-with-Python-and-Flask', '_blank')"> Code </button>
-                    </li>
-                </ul>
-                
-                <p>
-                    A web application created for the user able to create own blog or web page. 
-                    It allows the user can decorate the font, color, 
-                    and images whatever they want to decorate.
-                </p>
-                
-                <span class="tech-use">
-                    Created with: <br />
-                    Python
-                    Flask
-                    Heroku
-                    Gunicorn
-                </span>
-            </div>
-        </section>
+                <div class="project-container">
+                    <h3>Web App</h3>
+                    
+                    <ul>
+                        <li><img class="project-photo" src="./images/web_app.png" alt="web app"></li>
+                        <li>
+                            <button type="button" value="live page" onclick="window.open ('https://heesusbokeh.herokuapp.com/', '_blank')"> Live </button>
+                            <button type="button" value="code page" onclick="window.open ('https://github.com/hskang135/Build-a-Website-with-Python-and-Flask', '_blank')"> Code </button>
+                        </li>
+                    </ul>
+                    
+                    <p>
+                        A web application created for the user to be able to create their own blog or web page. 
+                        It allows the user can decorate the font, color, 
+                        and images whatever they want to decorate.
+                    </p>
+                    
+                    <span class="tech-use">
+                        Created with: <br />
+                        Python,
+                        Flask,
+                        Heroku,
+                        Gunicorn
+                    </span>
+                </div>
+            </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-                <ul>
-                    <li><a href="tel:+12019036879">Phone</a></li>
-                    <li><a href="mailto:hskang135@gmail.com" target="_blank">Email</a></li> <br>
-                    <li><a href="https://github.com/hskang135" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/heesu-kang-687430110/" target="_blank">LinkedIn</a></li>
-                </ul>
-        </section>
-    </main>
-    <footer>Copyright @ <script>document.write(new Date().getFullYear())</script> Heesu Kang. <br /> All right reserved.</footer>
+            <section id="contact">
+                <h2>Contact</h2>
+                    <ul>
+                        <li><a href="tel:+12019036879">Phone</a></li>
+                        <li><a href="mailto:hskang135@gmail.com" target="_blank">Email</a></li> <br />
+                        <li><a href="https://github.com/hskang135" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/heesu-kang-687430110/" target="_blank">LinkedIn</a></li>
+                    </ul>
+            </section>
+        </main>
+        <footer>Copyright @ <script>document.write(new Date().getFullYear())</script> Heesu Kang. <br /> All right reserved.</footer>
 
-</body>
+    </body>
 </html>
 
 
