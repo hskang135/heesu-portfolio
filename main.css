@@ -199,6 +199,7 @@ footer {
     #contact li {
         display: inline-block;
         width: 30%;
+        font-size: 30px;
     }
 
     p {
@@ -218,6 +219,7 @@ footer {
         display: block;
         margin: 20px;
     }
+
 
     nav {
         flex-direction: row;
@@ -264,8 +266,7 @@ footer {
     }
 
     #contact h2 {
-        padding-top: 40px;
-        padding-bottom: 70px;
+        padding-top: 70px;
     }
 
     header img {
@@ -278,13 +279,10 @@ footer {
         max-height: 130%;
     }
 
-    #contact h2 {
-        padding-top: 70px;
-    }
-
     #contact li {
         display: inline-block;
         width: 15%;
+        font-size: 30px;
     }
 
     footer {
