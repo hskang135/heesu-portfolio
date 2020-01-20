@@ -100,8 +100,8 @@ header img {
 
 section img {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 button {
@@ -171,9 +171,9 @@ footer {
     display: inline-block;
     padding: 3%;
     margin: 2%;
-    width: 160px;
     border: 1px solid gray;
     text-align: center;
+    width: 40%;
 }
 
 #contact a {
@@ -187,13 +187,18 @@ footer {
     }
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 760px) {
     body {
         font-size: 35px;
     }
 
     header {
         font-size: 50px;
+    }
+
+    #contact li {
+        display: inline-block;
+        width: 30%;
     }
 
     p {
@@ -219,7 +224,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
     body {
         padding-top: 70px !important; 
         margin: 0;
@@ -259,7 +264,8 @@ footer {
     }
 
     #contact h2 {
-        padding-top: 70px;
+        padding-top: 40px;
+        padding-bottom: 70px;
     }
 
     header img {
@@ -272,15 +278,13 @@ footer {
         max-height: 130%;
     }
 
-    #contact {
-        font-size: 30px;
+    #contact h2 {
+        padding-top: 70px;
     }
 
     #contact li {
         display: inline-block;
-        padding: 3%;
-        margin: 2%;
-        width: 210px;
+        width: 15%;
     }
 
     footer {
