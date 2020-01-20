@@ -130,9 +130,10 @@ section {
 .project-container {
     border-radius: 5px;
     border: 2px solid gray;
-    margin: 40px auto !important;
+    margin: 4rem auto !important;
     text-align: center;
     padding-bottom: 20px;
+    align-content: center;
 }
 
 .project-container p {
@@ -207,14 +208,6 @@ footer {
         text-indent: 40px;
     }
 
-    .project-container {
-        border: 2px solid gray;
-        max-width: 20em;
-        text-align: center;
-        align-content: center;
-        margin: 0 auto;
-    }
-
     ul.menu {
         display: block;
         margin: 20px;
@@ -242,7 +235,7 @@ footer {
     }
 
     .project-container {
-        max-width: 28em;
+        max-width: 80%;
     }
 
     .project-container h3 {
