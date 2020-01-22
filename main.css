@@ -223,6 +223,11 @@ footer {
     #contact li {
         font-size: 2.5rem;
     }
+
+    button {
+        padding: 10px 20px;
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width: 760px) {
@@ -252,6 +257,10 @@ footer {
         text-indent: 40px;
     }
 
+    button {
+        padding: 10px 20px;
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -266,6 +275,11 @@ footer {
 
     #contact li {
         font-size: 2.8rem;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 30px;
     }
 }
 
