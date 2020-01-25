@@ -315,7 +315,7 @@ footer {
     }
 
     #projects h2 {
-        padding-top: 70px;
+        padding-top: 60px;
     }
 
     #about-me h2 {
@@ -370,6 +370,6 @@ footer {
     }
 
     .bio {
-        padding: 10%;
+        padding: 3% 10% 0 10%;
     }
 }
