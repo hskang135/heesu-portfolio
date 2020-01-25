@@ -63,7 +63,7 @@ p {
 }
 
 .bio {
-    padding: 5%;
+    padding: 7%;
 }
 
 h3 {
@@ -353,7 +353,7 @@ footer {
 
 @media screen and (min-width: 1025px) {
     .project-container {
-        max-width: 83%;
+        max-width: 79%;
     }
 
     #contact li {
@@ -367,5 +367,9 @@ footer {
     nav ul li {
         font-size: 43px;
         margin: 0 5% 0 5%;
+    }
+
+    .bio {
+        padding: 10%;
     }
 }
