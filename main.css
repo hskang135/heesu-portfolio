@@ -55,7 +55,6 @@ ul {
 
 p {
     text-align: left;
-    text-indent: 20px;
 }
 
 .bio ul {
@@ -251,12 +250,7 @@ footer {
     #contact li {
         font-size: 2.5rem;
     }
-
-    p {
-        text-align: left;
-        text-indent: 40px;
-    }
-
+    
     button {
         padding: 10px 20px;
         font-size: 30px;
@@ -287,10 +281,6 @@ footer {
     body {
         padding-top: 70px !important; 
         margin: 0;
-    }
-
-    p {
-        text-indent: 40px;
     }
 
     .project-container {
