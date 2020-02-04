@@ -54,7 +54,9 @@ ul {
 }
 
 p {
-    text-align: left;
+    text-align: justify;
+    text-indent: 5%;
+    text-justify: inter-word;
 }
 
 .bio ul {
