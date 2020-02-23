@@ -4,7 +4,7 @@
 
 body {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     width: 0 auto;
@@ -31,10 +31,6 @@ nav ul li {
     margin: 0 1% 0 1%;
     font-size: 18px;
 }
-
-/* ul.menu {
-    margin: 10px;
-} */
 
 nav a {
     text-decoration: none;
@@ -283,6 +279,10 @@ footer {
     body {
         padding-top: 70px !important; 
         margin: 0;
+    }
+
+    h2 {
+        font-size: 80px;
     }
 
     .project-container {
