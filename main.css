@@ -63,9 +63,9 @@ p {
 }
 
 header li {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 23px;
 }
 
 li {
@@ -184,6 +184,14 @@ footer {
         font-size: 21px;
     }
 
+    header {
+        padding: 15% 0 0 0;
+    }
+
+    header li {
+        font-size: 26px;
+    }
+
     nav {
         padding: 10px;
     }
@@ -256,6 +264,10 @@ footer {
         font-size: 35px;
     }
 
+    header li {
+        font-size: 45px;
+    }
+
     nav {
         padding: 8px;
     }
@@ -277,7 +289,7 @@ footer {
     }
 
     header {
-        padding: 3% 0 0 0;
+        padding: 7% 0 0 0;
     }
 
     header img {
@@ -350,6 +362,10 @@ footer {
 @media screen and (min-width: 1025px) {
     .project-container {
         max-width: 79%;
+    }
+
+    header {
+        padding: 3% 0 0 0;
     }
 
     #contact li {
