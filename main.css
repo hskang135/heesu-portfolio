@@ -38,7 +38,6 @@ nav a {
 }
 
 header {
-    font-size: 20px;
     font-family: 'Yeseva One', cursive;
     margin: 0 auto;
     padding: 10% 0 0 0;
@@ -51,7 +50,7 @@ ul {
 
 p {
     text-align: justify;
-    text-indent: 5%;
+    text-indent: 10%;
     text-justify: inter-word;
 }
 
@@ -61,10 +60,6 @@ p {
 
 .bio {
     padding: 7%;
-}
-
-h3 {
-    font-size: 30px;
 }
 
 header li {
@@ -279,6 +274,15 @@ footer {
     body {
         padding-top: 70px !important; 
         margin: 0;
+    }
+
+    header {
+        padding: 3% 0 0 0;
+    }
+
+    header img {
+        max-width: 70%;
+        max-height: 70%;
     }
 
     h2 {
