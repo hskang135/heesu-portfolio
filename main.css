@@ -40,7 +40,7 @@ nav a {
 header {
     font-family: 'Yeseva One', cursive;
     margin: 0 auto;
-    padding: 10% 0 0 0;
+    padding: 23% 0 0 0;
 }
 
 ul {
@@ -85,7 +85,6 @@ header img {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
     max-width: 60%;
     max-height: 60%;
-    margin-top: 20px;
 }
 
 
@@ -185,7 +184,7 @@ footer {
     }
 
     header {
-        padding: 15% 0 0 0;
+        padding: 20% 0 0 0;
     }
 
     header li {
@@ -356,12 +355,12 @@ footer {
     }
 
     header {
-        padding: 2.5% 0 0 0;
+        padding: 3.9% 0 0 0;
     }
 
     header img {
-        max-width: 30%;
-        max-height: 26%;
+        max-width: 31%;
+        max-height: 30%;
     }
 
     #contact li {
