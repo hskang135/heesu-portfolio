@@ -331,6 +331,10 @@ footer {
         max-width: 40%;
         max-height: 40%;
     }
+
+    P {
+        text-indent: 7%;
+    }
     
     section img {
         max-width: 130%;
