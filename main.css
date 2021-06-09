@@ -294,8 +294,7 @@ footer {
     }
 
     h2 {
-        font-size: 85px;
-        text-decoration: underline;
+        font-size: 80px;
     }
 
     .project-container {
@@ -328,8 +327,8 @@ footer {
     }
 
     header img {
-        max-width: 30%;
-        max-height: 30%;
+        max-width: 20%;
+        max-height: 20%;
     }
 
     P {
@@ -359,11 +358,6 @@ footer {
 
     header {
         padding: 3.9% 0 0 0;
-    }
-
-    header img {
-        max-width: 25%;
-        max-height: 25%;
     }
 
     #contact li {
