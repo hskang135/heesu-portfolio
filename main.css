@@ -5,7 +5,7 @@
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 20px;
     line-height: 1.5;
     width: 0 auto;
@@ -74,11 +74,11 @@ li {
 
 h2 {
     font-family: 'Poppins', sans-serif;;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 header img {
