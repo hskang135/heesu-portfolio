@@ -4,15 +4,16 @@
 
 body {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     width: 0 auto;
+    color: white;
 }
 
 nav {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
-    background-color: #ffe4cc;
+    background-color: #befafa;
     top: 0;
     left: 0;
     right: 0;
@@ -37,7 +38,7 @@ nav a {
 }
 
 header {
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Yeseva One';
     margin: 0 auto;
     padding: 28% 0 0 0;
 }
@@ -72,7 +73,7 @@ li {
 }
 
 h2 {
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Poppins', sans-serif;;
     font-size: 50px;
 }
 
@@ -148,7 +149,7 @@ section {
 }
 
 footer {
-    background-color: #ffe4cc;;
+    background-color: #befafa;
     bottom: 0;
     left: 0;
     right: 0;
@@ -327,8 +328,8 @@ footer {
     }
 
     header img {
-        max-width: 40%;
-        max-height: 40%;
+        max-width: 30%;
+        max-height: 30%;
     }
 
     P {
