@@ -87,7 +87,6 @@ header img {
     max-height: 70%;
 }
 
-
 #about-me ul {
     padding: 70px;
     margin: 20px;
@@ -299,11 +298,11 @@ footer {
     }
 
     .project-container {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .project-container h3 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     nav ul li {
@@ -339,10 +338,6 @@ footer {
     section img {
         max-width: 130%;
         max-height: 130%;
-    }
-
-    footer {
-        font-size: 15px;
     }
 
     #contact li {
