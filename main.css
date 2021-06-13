@@ -69,10 +69,6 @@ h2 {
     font-size: 50px;
 }
 
-h3 {
-    font-size: 20px;
-}
-
 header img {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
     max-width: 60%;
@@ -117,7 +113,7 @@ section {
 .project-container {
     border-radius: 5px;
     border: 2px solid gray;
-    margin: 4rem auto !important;
+    margin: 1rem auto !important;
     text-align: center;
     padding-bottom: 20px;
     align-content: center;
@@ -125,10 +121,6 @@ section {
 
 .project-container p {
     padding: 0 30px 0 30px;
-}
-
-.project-container h3 {
-    font-size: 20px;
 }
 
 .project-container ul {
@@ -207,6 +199,10 @@ footer {
 
     section {
         padding: 5% 0;
+    }
+
+    h3 {
+        font-size: 30px;
     }
 }
 
@@ -301,7 +297,7 @@ footer {
         max-width: 60%;
     }
 
-    .project-container h3 {
+    h3 {
         font-size: 60px;
     }
 
