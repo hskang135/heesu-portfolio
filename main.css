@@ -290,7 +290,12 @@ footer {
     }
 
     header {
-        padding: 10% 0 0 0;
+        padding: 15% 0 0 0;
+    }
+
+    header li {
+        font-size: 30px;
+        padding: 20% 0 0 0;
     }
 
     h2 {
@@ -323,7 +328,7 @@ footer {
     }
 
     #contact h2 {
-        padding-top: 70px;
+        padding-top: 60px;
     }
 
     header img {
@@ -342,7 +347,7 @@ footer {
 
     #contact li {
         font-size: 2.8rem;
-        width: 10%;
+        width: 5%;
     }
 
     button {
@@ -374,7 +379,6 @@ footer {
     }
 
     .bio {
-        padding: 3% 10% 0 10%;
+        padding: 4% 10% 0 10%;
     }
-
 }
