@@ -52,10 +52,6 @@ p {
     text-indent: 8%;
 }
 
-.bio ul {
-    text-align: center;
-}
-
 .bio {
     padding: 7%;
 }
@@ -88,6 +84,7 @@ header img {
 #about-me ul {
     padding: 70px;
     margin: 20px;
+    text-align: center;
 }
 
 section img {
@@ -296,7 +293,7 @@ footer {
     }
 
     .project-container {
-        max-width: 70%;
+        max-width: 60%;
     }
 
     .project-container h3 {
@@ -330,8 +327,8 @@ footer {
     }
     
     section img {
-        max-width: 130%;
-        max-height: 130%;
+        max-width: 140%;
+        max-height: 140%;
     }
 
     #contact li {
@@ -343,13 +340,13 @@ footer {
         padding: 15px 25px;
         font-size: 33px;
     }
+
+    .bio p {
+        max-width: 70%;
+    }
 }
 
 @media screen and (min-width: 1025px) {
-    .project-container {
-        max-width: 70%;
-    }
-
     nav {
         padding: 20px;
     }
