@@ -49,16 +49,10 @@ ul {
 
 p {
     text-align: justify;
-    text-indent: 5%;
 }
 
 .bio {
-    padding: 7%;
-}
-
-.bio p {
-    text-align: justify;
-    text-indent: 5%;
+    padding: 0 8%;
 }
 
 header li {
@@ -232,7 +226,7 @@ footer {
 
 @media screen and (min-width: 760px) {
     body {
-        font-size: 35px;
+        font-size: 33px;
     }
 
     header {
@@ -240,7 +234,6 @@ footer {
     }
 
     nav ul li {
-        font-size: 35px;
         margin: 0 3% 0 3%;
     }
 
@@ -261,7 +254,6 @@ footer {
 @media screen and (min-width: 768px) {
     nav ul li {
         margin: 0 3% 0 3%;
-        font-size: 35px;
     }
 
     header li {
@@ -326,10 +318,6 @@ footer {
         max-height: 20%;
     }
 
-    P {
-        text-indent: 3%;
-    }
-    
     section img {
         max-width: 140%;
         max-height: 140%;
@@ -341,12 +329,12 @@ footer {
     }
 
     button {
-        padding: 15px 25px;
-        font-size: 33px;
+        padding: 15px 20px;
+        font-size: 30px;
     }
 
-    .bio p {
-        max-width: 95%;
+    .bio {
+        padding: 0 10%;
     }
 }
 
@@ -365,10 +353,6 @@ footer {
 
     nav ul li {
         font-size: 43px;
-        margin: 0 5% 0 5%;
-    }
-
-    .bio {
-        padding: 0 10% 0 10%;
+        margin: 0 5%;
     }
 }
