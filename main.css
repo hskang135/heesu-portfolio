@@ -56,6 +56,10 @@ p {
     padding: 7%;
 }
 
+.bio p {
+    text-align: center;
+}
+
 header li {
     padding-bottom: 15px;
     padding-top: 15px;
@@ -84,7 +88,6 @@ header img {
 #about-me ul {
     padding: 70px;
     margin: 20px;
-    text-align: center;
 }
 
 section img {
