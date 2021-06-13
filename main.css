@@ -49,7 +49,7 @@ ul {
 
 p {
     text-align: justify;
-    text-indent: 8%;
+    text-indent: 5%;
 }
 
 .bio {
@@ -58,6 +58,7 @@ p {
 
 .bio p {
     text-align: center;
+    text-indent: 5%;
 }
 
 header li {
@@ -304,7 +305,7 @@ footer {
     }
 
     nav ul li {
-        font-size: 45px;
+        font-size: 50px;
         margin: 0 3% 0 3%;
     }
 
@@ -345,7 +346,7 @@ footer {
     }
 
     .bio p {
-        max-width: 100%;
+        max-width: 95%;
     }
 }
 
