@@ -283,12 +283,12 @@ footer {
 
 @media screen and (min-width: 1024px) {
     body {
-        padding-top: 70px !important; 
+        padding-top: 50px !important; 
         margin: 0;
     }
 
     header {
-        padding: 10% 0 0 0;
+        padding: 5% 0 0 0;
     }
 
     header li {
@@ -330,8 +330,8 @@ footer {
     }
 
     header img {
-        max-width: 25%;
-        max-height: 25%;
+        max-width: 20%;
+        max-height: 20%;
     }
 
     P {
