@@ -13,8 +13,7 @@ body {
 
 nav {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
-    background-color: #befafa;
-    top: 0;
+    background-color: #97d6f3;
     left: 0;
     right: 0;
     position:fixed;
@@ -98,7 +97,7 @@ section img {
 }
 
 button {
-    background-color: #7a6c70;
+    background-color: #e6a1a1;
     text-align: center;
     color: white;
     margin-top: 15px;
@@ -108,7 +107,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 2px 2px 8px #2E2E2E;
+    box-shadow: 2px 2px 8px #e99595;
 }
 
 section {
@@ -147,7 +146,7 @@ section {
 }
 
 footer {
-    background-color: #befafa;
+    background-color: #97d6f3;
     bottom: 0;
     left: 0;
     right: 0;
@@ -293,7 +292,7 @@ footer {
     }
 
     header li {
-        font-size: 60px;
+        font-size: 50px;
         padding: 5% 0 0 0;
     }
 
@@ -315,7 +314,7 @@ footer {
     }
 
     nav {
-        padding: 25px;
+        padding: 30px;
     }
 
     #projects h2 {
@@ -331,8 +330,8 @@ footer {
     }
 
     header img {
-        max-width: 30%;
-        max-height: 30%;
+        max-width: 25%;
+        max-height: 25%;
     }
 
     P {
