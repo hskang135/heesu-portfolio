@@ -208,6 +208,10 @@ footer {
         padding: 10% 0;
         font-size: 23px;
     }
+
+    section {
+        padding: 8% 0;
+    }
 }
 
 @media screen and (min-width: 414px) {
@@ -233,7 +237,7 @@ footer {
     }
 
     header li {
-        padding: 10% 0;
+        padding: 8% 0;
     }
 }
 
