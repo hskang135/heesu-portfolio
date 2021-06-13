@@ -56,9 +56,8 @@ p {
 }
 
 header li {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    font-size: 23px;
+    font-size: 18px;
+    padding: 10% 0;
 }
 
 li {
@@ -76,8 +75,8 @@ h3 {
 
 header img {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 60%;
+    max-height: 60%;
 }
 
 #about-me ul {
@@ -176,11 +175,12 @@ footer {
     }
 
     header {
-        padding: 30% 0 0 0;
+        padding: 20% 0 0 0;
     }
 
     header li {
-        font-size: 26px;
+        font-size: 20px;
+        padding: 10% 0;
     }
 
     nav {
@@ -201,7 +201,12 @@ footer {
         padding: 12px;
     }
     header {
-        padding: 35% 0 0 0;
+        padding: 30% 0 0 0;
+    }
+
+    header li {
+        padding: 16% 0;
+        font-size: 23px;
     }
 }
 
@@ -221,6 +226,14 @@ footer {
     button {
         padding: 10px 20px;
         font-size: 25px;
+    }
+
+    header {
+        padding: 30% 0 0 0;
+    }
+
+    header li {
+        padding: 10% 0;
     }
 }
 
