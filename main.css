@@ -336,6 +336,10 @@ footer {
     .bio {
         padding: 0 10%;
     }
+
+    .bio p {
+        padding: 0 5%;
+    }
 }
 
 @media screen and (min-width: 1025px) {
